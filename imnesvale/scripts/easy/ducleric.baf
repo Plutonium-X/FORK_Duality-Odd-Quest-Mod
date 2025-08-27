@@ -142,6 +142,7 @@ END
 
 IF
 	HaveSpell(CLERIC_SILENCE_15_FOOT)
+	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_DEAD)
 	GlobalTimerExpired("duCastingTimer","LOCALS")
 THEN
