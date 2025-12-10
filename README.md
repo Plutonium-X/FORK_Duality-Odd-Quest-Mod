@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/github/v/release/https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod?include_prereleases&color=darkred)<a name="top" id="top"> </a>
+![Latest Release](https://img.shields.io/github/v/release/Spellhold-Studios/Duality-Odd-Quest-Mod?include_prereleases&color=darkred)<a name="top" id="top"> </a>
 ![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
