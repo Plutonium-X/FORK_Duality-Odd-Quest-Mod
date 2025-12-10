@@ -95,15 +95,21 @@ END SPOILERS
 VERSION HISTORY
 ===============
 
+Version 2.3 (December 10, 2025)
+- Fixed several script errors (by Rivvers).
+- Added Spanish translation (by alaisFcZ).
+- Added support for translations with UTF-8 character encoding.
+- Repackaged with Windows, macOS, and Linux installers in a single ZIP archive.
+
 Version 2.2.2 (December 5, 2025)
 - Fixed Hard difficulty install error.
 - Inversion: now the guy has less chance to dispel when held in easy difficulty, and better chances on harder difficulty.
 
 Version 2.2.1 (August 29, 2025)
-- Various fixes (by Rivvers)
+- Various fixes (by Rivvers).
 
 Version 2.2 (August 29, 2025)
-- Added French translation (by Deratiseur)
+- Added French translation (by Deratiseur).
 
 Version 2.1 (August 30, 2020)
 - Added Italian translation (by ilot).

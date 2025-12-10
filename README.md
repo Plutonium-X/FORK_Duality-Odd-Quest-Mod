@@ -1,12 +1,12 @@
 
-![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/Duality_Odd_Quest_Mod?include_prereleases&color=darkred)<a name="top" id="top"> </a>
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Italian%20%7C%20Russian&color=limegreen)
+![Latest Release](https://img.shields.io/github/v/release/https://github.com/Spellhold-Studios/Duality-Odd-Quest-Mod?include_prereleases&color=darkred)<a name="top" id="top"> </a>
+![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux&color=informational)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
-<div align="center"><h1></a>Duality's Odd Quest Mod (or simply Imnesvale)</h1>
+<div align="center"><h1></a>D's Odd Quest Mod (Imnesvale)</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II: Throne of Bhaal (classical and EE games),
-Baldur's Gate Trilogy and EET<h3>
+Baldur's Gate Trilogy, and EET<h3>
 
 </div><br />
 
@@ -17,7 +17,7 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## 
 
-[Read the mod's readme](http://spellholdstudios.github.io/readmes/imnesvale-readme.txt)
+[Read the mod's readme](https://spellhold-studios.github.io/readmes/imnesvale/imnesvale-readme.txt)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/614-ds-odd-quest-mod/)<br>
 
@@ -94,9 +94,9 @@ Run **`setup-imnesvale.exe`** in your game folder to reinstall, un-install or ot
 
 ## 
 
-#### Mac OS X
+#### macOS
 
-D's Odd Quest Mod for Mac OS X is distributed is distributed in the same compressed archive and includes a WeiDU installer.
+D's Odd Quest Mod for macOS is distributed in the same compressed archive and includes a WeiDU installer.
 
 First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: imnesvale folder, setup-imnesvale and setup-imnesvale.command files in your game folder. To install, simply double-click **`setup-imnesvale.command`** and follow the instructions on screen.
 
@@ -106,13 +106,11 @@ Run **`setup-imnesvale.command`** in your game folder to reinstall, un-install o
 
 #### Linux
 
-D's Odd Quest Mod for Linux is distributed in the same compressed archive and does not include a WeiDU installer.
+D's Odd Quest Mod for Linux is distributed in the same compressed archive and includes a WeiDU installer.
 
-Extract the contents of the mod to the folder of the game you wish to modify.
+Extract the contents of the mod to the folder of the game you wish to modify. On successful extraction, there should be a :file_folder: imnesvale folder, setup-imnesvale and setup-imnesvale.sh files in your game folder. To install, simply double-click **`setup-imnesvale.sh`** and follow the instructions on screen.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **`cd`** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
-
-To install, run **`weinstall setup-imnesvale`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine baldur.exe`** for EE games) and start playing.
+Run **`setup-imnesvale.sh`** in your game folder to reinstall, un-install or otherwise change the components settings.
 
 ## 
 
@@ -194,10 +192,12 @@ A: Hold is cheap. They are triggered to get rid of any hold/stun spells and fry 
 
 #### Special Acknowledgements to:
 
+- alaisFcZ: Spanish translation.
+- Deratiseur: French translation.
 - ilot: Italian translation.
-- AL|EN: Wrote process which automatically provides Windows, Linux and Mac versions in the same archive file.
-- The BiG World Textpack German team: German translation.
 - Prowler: Russian translation.
+- Rivvers: script fixes.
+- The BiG World Textpack German team: German translation.
 
 &#9755; If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/32419-ds-odd-quest-mod/">mod forum</a>.</br>
 
@@ -210,7 +210,8 @@ A: Hold is cheap. They are triggered to get rid of any hold/stun spells and fry 
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>, maintained by igi and lynx.
 - <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
 - <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters</a>, by Argent77.
-- <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a>, by AL|EN.
+- <a href="https://github.com/InfinityTools/WeiduModPackager">WeiDU Mod Packager</a>, by Argent77.
+- <a href="https://github.com/InfinityTools/InfinityAutoPackager">Infinity Auto Packager</a>, by AL|EN.
 
 ## 
 
@@ -232,7 +233,35 @@ A: Hold is cheap. They are triggered to get rid of any hold/stun spells and fry 
 <hr>
 
 
-## <a name="versions" id="versions"></a>Versions History
+## <a name="versions" id="versions"></a>Version History
+
+##### Version 2.3 (December 10, 2025)
+
+- Fixed several script errors (by Rivvers).
+- Added Spanish translation (by alaisFcZ).
+- Added support for translations with UTF-8 character encoding.
+- Repackaged with Windows, macOS, and Linux installers in a single ZIP archive.
+
+## 
+
+##### Version 2.2.2 (December 5, 2025)
+
+- Fixed Hard difficulty install error.
+- Inversion: now the guy has less chance to dispel when held in easy difficulty, and better chances on harder difficulty.
+
+## 
+
+##### Version 2.2.1 (August 29, 2025)
+
+- Various fixes (by Rivvers).
+
+## 
+
+##### Version 2.2 (August 29, 2025)
+
+- Added French translation (by Deratiseur).
+
+## 
 
 ##### Version 2.1 (August 30, 2020)
 
@@ -240,7 +269,7 @@ A: Hold is cheap. They are triggered to get rid of any hold/stun spells and fry 
 
 ## 
 
-##### Version 2.0 (June 2d, 2020)
+##### Version 2.0 (June 2, 2020)
 
 - Added *imnesvale.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-imnesvale.tp2* -> *imnesvale.tp2* and moved it into mod top folder to support AL|EN's "Project Infinity".
