@@ -14,7 +14,6 @@ THEN
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
 		ReallyForceSpell(Myself,WIZARD_BLUR)
-		ReallyForceSpell(Myself,CLERIC_RESIST_COLD)
 		ReallyForceSpell(Myself,CLERIC_RESIST_FIRE)
 		ReallyForceSpell(Myself,CLERIC_CHAOTIC_COMMANDS)
 		ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_ENERGY)
@@ -40,7 +39,6 @@ THEN
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
 		ReallyForceSpell(Myself,WIZARD_BLUR)
-		ReallyForceSpell(Myself,CLERIC_RESIST_COLD)
 		ReallyForceSpell(Myself,CLERIC_RESIST_FIRE)
 		ReallyForceSpell(Myself,CLERIC_CHAOTIC_COMMANDS)
 		ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_ENERGY)
@@ -95,7 +93,6 @@ THEN
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
 		ReallyForceSpell(Myself,WIZARD_BLUR)
-		ReallyForceSpell(Myself,CLERIC_RESIST_COLD)
 		ReallyForceSpell(Myself,CLERIC_RESIST_FIRE)
 		ReallyForceSpell(Myself,CLERIC_CHAOTIC_COMMANDS)
 		ReallyForceSpell(Myself,WIZARD_PROTECTION_FROM_ENERGY)
@@ -164,9 +161,9 @@ THEN
 		DisplayStringHead(Myself,@65)
 		UseItem("POTN55",Myself)
 		AttackOneRound(NearestEnemyOf(Myself))
-		Continue()
 		ReallyForceSpell(Myself,WIZARD_STONE_SKIN)
 		ReallyForceSpell(Myself,WIZARD_MIRROR_IMAGE)
+		Continue()
 END
 
 IF	
@@ -174,7 +171,7 @@ IF
 	!StateCheck(SecondNearestEnemyOfType([0.0.0.MAGE_ALL]),STATE_INVISIBLE)
 THEN
 	RESPONSE #100
-		Attack(SecondNearestEnemyOf(Myself))
+		Attack(SecondNearestEnemyOfType([0.0.0.MAGE_ALL]))
 		Continue()
 END	
 
@@ -183,7 +180,7 @@ IF
 	!StateCheck(NearestEnemyOfType([0.0.0.MAGE_ALL]),STATE_INVISIBLE)
 THEN
 	RESPONSE #100
-		Attack(NearestEnemyOf(Myself))
+		Attack(NearestEnemyOfType([0.0.0.MAGE_ALL]))
 		Continue()
 END
 

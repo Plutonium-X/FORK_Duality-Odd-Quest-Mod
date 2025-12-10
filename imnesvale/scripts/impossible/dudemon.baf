@@ -26,7 +26,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	RandomNum(15,1)
+	RandomNum(15,2)
 THEN
 	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON)
@@ -34,7 +34,7 @@ END
 
 IF
 	See(NearestEnemyOf(Myself))
-	RandomNum(50,1)
+	RandomNum(50,2)
 THEN
 	RESPONSE #100
 		ForceSpell(NearestEnemyOf(Myself),WIZARD_DELAYED_BLAST_FIREBALL)

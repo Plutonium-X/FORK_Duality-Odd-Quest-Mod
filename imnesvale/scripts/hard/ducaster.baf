@@ -111,7 +111,7 @@ END
 IF
 	HaveSpell(WIZARD_DETECT_INVISIBILITY)
 	GlobalTimerExpired("duCastingTimer","LOCALS")
-	OR(10)
+	OR(12)
 		StateCheck(NearestEnemyOf(Myself),STATE_INVISIBLE)
 		StateCheck(SecondNearestEnemyOf(Myself),STATE_INVISIBLE)
 		StateCheck(ThirdNearestEnemyOf(Myself),STATE_INVISIBLE)
