@@ -66,6 +66,11 @@ LANGUAGE ~Deutsch (Uebersetzung von BiG World Textpack German project)~
 		 ~imnesvale/lang/english/setup.tra~
 		 ~imnesvale/lang/german/setup.tra~
 
+LANGUAGE ~Espanol (traduccion de alaisFcZ)~
+		 ~spanish~
+		 ~imnesvale/lang/english/setup.tra~
+		 ~imnesvale/lang/spanish/setup.tra~
+
 LANGUAGE ~Francais (traduction par Deratiseur)~
 		 ~french~
 		 ~imnesvale/lang/english/setup.tra~
